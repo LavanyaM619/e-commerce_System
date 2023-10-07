@@ -1,0 +1,29 @@
+.headerr
+{
+    width:100%;
+    display: flex;
+    color: white;
+    background-color: #02191e;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 0;
+    top:0;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+.title
+{
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    z-index: 10;
+}
+
+.back
+{
+    z-index: 10;
+    position: absolute;
+    right: 0px;
+    padding-top: 5px;
+    padding-right: 20px;
+}

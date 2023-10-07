@@ -1,0 +1,175 @@
+.CustomContainer
+{
+    width:50vw;
+    height:70vh;
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:30px;
+    left:40px;
+    
+}
+
+.inputField
+{
+    width: 45vw;
+    height: 70vh;
+    position: absolute;
+    top:30px;
+    right:20px;
+    background-color: beige;
+    border:2px solid red;
+    
+}
+
+.field
+{
+    width: 100%;
+    height: 100%;
+    
+    font-size: 18px;
+    font-style: bold;
+    color:black;
+    margin-left:20px;
+}
+
+.singleFields
+{
+    position: absolute;
+    margin-top:10px;
+    margin-bottom:50px;
+    
+}
+
+.singleFieldsinputs
+{
+    position: absolute;
+    margin-top:20px;
+    margin-bottom:10px;
+    width:80%;
+    border-radius: 5px;
+    line-height: 10px;
+    padding: 12px 20px;
+}
+
+
+
+
+.CustomizerActivator
+{
+    position: absolute;
+    margin-top:10px;
+    margin-bottom:50px;
+
+}
+
+.Activator
+{
+    position: absolute;
+    margin-top:10px;
+    margin-bottom:50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.Activator_L
+{
+    position: absolute;
+    left: 20px;
+    background-color: gray;
+    color:white;
+    font-size: 18px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+
+.Activator_R
+{
+    position: absolute;
+    right: 100px;
+    background-color: grey;
+    color:white;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.Activator_R:hover,.Activator_L:hover
+{
+    background-color:black;
+    color:white;
+
+}
+
+.tabCustom
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height:100%;
+   
+}
+
+.tabCustomView
+{
+    overflow-x: auto;
+    position: absolute;
+    width: 90%;
+    height:fit-content;
+    display: flex;
+    left:40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: darkgray;
+
+}
+
+
+
+.singleFieldsColors
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:100px;
+    margin-right:50px;
+
+}
+
+.ColorField
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.inputsColor
+{
+    position: absolute;
+    margin-top:50px;
+    margin-bottom:10px;
+    width:20%;
+    height: 10%;
+    display: inline;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+
+.CustomizerHolders
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(105,105, 105, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}

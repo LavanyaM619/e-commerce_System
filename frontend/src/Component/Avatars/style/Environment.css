@@ -1,0 +1,119 @@
+.container{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    margin:0;
+    padding: 0;;
+    justify-content: center;
+    z-index: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    visibility: visible;
+    background: #55CBC2;
+}
+
+.canV
+{
+    z-index: 0;
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+
+.btnHolder
+{
+    cursor:pointer;
+    width:max-content;
+    background-color:aliceblue;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    bottom: 10px;
+    left: 30px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.btnHolder:hover
+{
+    cursor:pointer;
+    height: max-content;
+    width:max-content;
+    background-color: #BBCFCE;
+    position: absolute;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    bottom: 10px;
+    left: 30px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+
+
+
+.btnVisible
+{
+    visibility: visible ;
+    cursor:default;
+    height: max-content;
+    width:max-content;
+    position: absolute;
+    display: flex;
+    justify-items:center;
+    gap: 100px;
+    right:40%;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 4px;
+    bottom: 10%;
+    border-radius: 10px;
+    z-index: 10;
+    text-decoration: none;
+
+}
+
+.btnVisiblenot
+{
+    visibility: hidden ;
+    cursor:default;
+    height: max-content;
+    width:max-content;
+    position: absolute;
+    right:50%;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 4px;
+    bottom: 10%;
+    border-radius: 2px;
+    z-index: 10;
+    text-decoration: none;
+
+
+}
+
+
+p.neet
+{
+    cursor:pointer;
+    background-color:aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    z-index: 10;
+
+}
+
+p.neet:hover
+{
+    cursor:pointer;
+    background-color: #384647;
+    color:white;
+}
